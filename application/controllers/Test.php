@@ -9,6 +9,7 @@
 		}
 
 		public function index() {
+			
 			echo "index";
 			echo "<a href='home/student'>student</a>";
 		}

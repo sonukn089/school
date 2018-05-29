@@ -74,8 +74,15 @@
 					        <li class="list-group-item">
 					        	<a href="<? base_url();?>home/name">Advanced Employee List</a>
 					        </li>
-					        <li class="list-group-item">Online Registration</li>
-					        <li class="list-group-item">View Certificate</li>
+					        <li class="list-group-item">
+					        	<a href="<? base_url();?>home/name">Employee Salary</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<? base_url();?>home/name">Employee Salary Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<? base_url();?>home/name">Inactive Employee List</a>
+					        </li>
 					      </ul>
 					    </div>
   					</div>
@@ -85,13 +92,17 @@
   					<div class="panel panel-default">
 					    <div class="panel-heading">
 					      <h4 class="panel-title">
-					        <a data-toggle="collapse" href="#collapse3">Fee Module</a>
+					        <a data-toggle="collapse" href="#collapse3">Students</a>
 					      </h4>
 					    </div>
 					    <div id="collapse3" class="panel-collapse collapse">
 					      <ul class="list-group">
-					        <li class="list-group-item">Take Fee</li>
-					        <li class="list-group-item">Fee Report</li>
+					        <li class="list-group-item">
+					        	<a href="<? base_url();?>home/name">New Admission</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/name">Simple Search</a>
+					        </li>
 					      </ul>
 					    </div>
   					</div>

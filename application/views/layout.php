@@ -103,6 +103,15 @@
 					        <li class="list-group-item">
 					        	<a href="<?= base_url();?>home/name">Simple Search</a>
 					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/name">Advanced Search</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/name">Active Student List</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/name">Dropout Student List</a>
+					        </li>
 					      </ul>
 					    </div>
   					</div>

@@ -256,6 +256,52 @@
   					</div>
 				</div>
 
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse10">HomeWork</a>
+					      </h4>
+					    </div>
+					    <div id="collapse10" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/defineHomeWork">Define HomeWork</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/showHomeWork">Show HomeWork</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse11">Stock</a>
+					      </h4>
+					    </div>
+					    <div id="collapse11" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/enterStock">Enter Stock</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/saleStock">Sale Stock</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/printReciept">Print Reciept</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/editBill">Edit Bill</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
 
 			</div>
 

@@ -17,14 +17,15 @@
 		}
 
 		function teacher() {
-			echo "teacher";
+			$data['title'] = "Student Information";
+			$data['body'] = "student_info";
+			$this->load->view('layout', $data);
 		}
 
 		function name(){
-
-			echo "It's my page!";
-			$this->load->view('emplyoee_registration');
-
+			$data['title'] = "Employee Registration";
+			$data['body'] = "employee_registration";
+			$this->load->view('layout', $data);
 		}
 	}
 ?>

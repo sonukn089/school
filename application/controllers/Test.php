@@ -5,10 +5,13 @@
 		public function mypage(){
 
 			//echo "<a href='home/student'>student</a>";
-			$this->load->view('employee');
+			//$this->load->view('employee');
+			
+			$this->load->view('admin');
 		}
 
 		public function index() {
+
 			echo "index";
 			echo "<a href='home/student'>student</a>";
 		}

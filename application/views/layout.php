@@ -233,6 +233,29 @@
   					</div>
 				</div>
 
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse9">Report</a>
+					      </h4>
+					    </div>
+					    <div id="collapse9" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/promotedReportClasswise">Promoted Report Classwise</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/transferCertificate">Transfer Certificate</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/defineLessonPlan">Character Certificate</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
 
 			</div>
 

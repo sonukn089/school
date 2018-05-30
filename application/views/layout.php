@@ -187,7 +187,7 @@
 					        	<a href="<?= base_url();?>home/periodTimeSlots">Period Time Slots</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/teacherAttendence">Teacher Attendence</a>
+					        	<a href="<?= base_url();?>home/schedullingReport">Schedulling Report</a>
 					        </li>
 					        <li class="list-group-item">
 					        	<a href="<?= base_url();?>home/studentAttendenceReport">Student Attendence Report</a>

@@ -214,13 +214,19 @@
 					        	<a href="<?= base_url();?>home/examSchedulling">Exam Schedulling</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/schedullingReport">Schedulling Report</a>
+					        	<a href="<?= base_url();?>home/examTimeTable">Exam Time Table</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/defineLessonPlan">Define Lesson Plan</a>
+					        	<a href="<?= base_url();?>home/examDetails">Exam Details</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/lessonPlanReport">Lesson Plan Report</a>
+					        	<a href="<?= base_url();?>home/subjectResults">Subjects Results</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/generateResult">Generate Result</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/downloadAdmitCard">Download Admit Card</a>
 					        </li>  
 					      </ul>
 					    </div>

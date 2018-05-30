@@ -190,10 +190,37 @@
 					        	<a href="<?= base_url();?>home/schedullingReport">Schedulling Report</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/studentAttendenceReport">Student Attendence Report</a>
+					        	<a href="<?= base_url();?>home/defineLessonPlan">Define Lesson Plan</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/teacherAttendenceReport">Teacher Attendence Report</a>
+					        	<a href="<?= base_url();?>home/lessonPlanReport">Lesson Plan Report</a>
+					        </li>  
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
+
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse8">Exam</a>
+					      </h4>
+					    </div>
+					    <div id="collapse8" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/examSchedulling">Exam Schedulling</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/schedullingReport">Schedulling Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/defineLessonPlan">Define Lesson Plan</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/lessonPlanReport">Lesson Plan Report</a>
 					        </li>  
 					      </ul>
 					    </div>

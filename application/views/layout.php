@@ -36,19 +36,19 @@
 					    <div id="collapse1" class="panel-collapse collapse">
 					      <ul class="list-group">
 							<li class="list-group-item">
-					        	<a href="<?= base_url();?>home/teacher">Configure Class</a>
+					        	<a href="<?= base_url();?>home/configureClass">Configure Class</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Configure Fee</a>
+					        	<a href="<?= base_url();?>home/configFee">Configure Fee</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?=  base_url();?>home/name">Update Class</a>
+					        	<a href="<?=  base_url();?>home/updateClass">Update Class</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Subject Configuration</a>
+					        	<a href="<?= base_url();?>home/subjectConfiguration">Subject Configuration</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Class Promotion</a>
+					        	<a href="<?= base_url();?>home/classPromotion">Class Promotion</a>
 					        </li>
 
 					      </ul>
@@ -66,22 +66,22 @@
 					    <div id="collapse2" class="panel-collapse collapse">
 					      <ul class="list-group">
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Add Employee</a>
+					        	<a href="<?= base_url();?>home/addemployee">Add Employee</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">Simple Employee List</a>
+					        	<a href="<?= base_url();?>home/simpleEmployeeList">Simple Employee List</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">Advanced Employee List</a>
+					        	<a href="<?= base_url();?>home/advanceEmployeeList">Advanced Employee List</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">Employee Salary</a>
+					        	<a href="<? base_url();?>home/employeeSalary">Employee Salary</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">Employee Salary Report</a>
+					        	<a href="<? base_url();?>home/employeeSalaryReport">Employee Salary Report</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">Inactive Employee List</a>
+					        	<a href="<? base_url();?>home/inactiveEmployeeList">Inactive Employee List</a>
 					        </li>
 					      </ul>
 					    </div>
@@ -98,19 +98,19 @@
 					    <div id="collapse3" class="panel-collapse collapse">
 					      <ul class="list-group">
 					        <li class="list-group-item">
-					        	<a href="<? base_url();?>home/name">New Admission</a>
+					        	<a href="<? base_url();?>home/newAdmission">New Admission</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Simple Search</a>
+					        	<a href="<?= base_url();?>home/simpleSearch">Simple Search</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Advanced Search</a>
+					        	<a href="<?= base_url();?>home/advanceSearch">Advanced Search</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Active Student List</a>
+					        	<a href="<?= base_url();?>home/activeStudentList">Active Student List</a>
 					        </li>
 					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/name">Dropout Student List</a>
+					        	<a href="<?= base_url();?>home/dropoutStudentList">Dropout Student List</a>
 					        </li>
 					      </ul>
 					    </div>
@@ -121,39 +121,80 @@
   					<div class="panel panel-default">
 					    <div class="panel-heading">
 					      <h4 class="panel-title">
-					        <a data-toggle="collapse" href="#collapse4">Accountant</a>
+					        <a data-toggle="collapse" href="#collapse4">Fee</a>
 					      </h4>
 					    </div>
 					    <div id="collapse4" class="panel-collapse collapse">
 					      <ul class="list-group">
-					        <li class="list-group-item">Credit</li>
-					        <li class="list-group-item">Debit</li>
-					        <li class="list-group-item">Cash</li>
-					        <li class="list-group-item">Expens</li>
-					        <li class="list-group-item">Day Report</li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/collectFee">Collect Fee</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/updateScheduledFee">Update Scheduled Fee</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/feeReport">Fee Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/dueFeeReport">Due Fee Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/printDdueFeeReport">Print Due Fee Report</a>
+					        </li>
+					        
 					      </ul>
 					    </div>
   					</div>
 				</div>
 
 
-
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse6">Attendence</a>
+					      </h4>
+					    </div>
+					    <div id="collapse6" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/studentAttendence">Student Attendence</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/teacherAttendence">Teacher Attendence</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/studentAttendenceReport">Student Attendence Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/teacherAttendenceReport">Teacher Attendence Report</a>
+					        </li>  
+					      </ul>
+					    </div>
+  					</div>
+				</div>
 
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
 					      <h4 class="panel-title">
-					        <a data-toggle="collapse" href="#collapse6">Setting</a>
+					        <a data-toggle="collapse" href="#collapse7">Time Schedulling</a>
 					      </h4>
 					    </div>
-					    <div id="collapse6" class="panel-collapse collapse">
+					    <div id="collapse7" class="panel-collapse collapse">
 					      <ul class="list-group">
-					        <li class="list-group-item">Courses</li>
-					        <li class="list-group-item">Batch Timing</li>
-					        <li class="list-group-item">Special Batch</li>
-					        <li class="list-group-item">New Batch</li>
-					        <li class="list-group-item">New Batch</li>
-					        <li class="list-group-item">Expense List</li>
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/periodTimeSlots">Period Time Slots</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/teacherAttendence">Teacher Attendence</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/studentAttendenceReport">Student Attendence Report</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/teacherAttendenceReport">Teacher Attendence Report</a>
+					        </li>  
 					      </ul>
 					    </div>
   					</div>

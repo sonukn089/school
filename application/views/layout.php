@@ -302,6 +302,95 @@
   					</div>
 				</div>
 
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse12">Messgae</a>
+					      </h4>
+					    </div>
+					    <div id="collapse12" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/noticeAlert">Notice/Alert</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/message">Message</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse13">Mobile Message</a>
+					      </h4>
+					    </div>
+					    <div id="collapse13" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/mobileSms">Mobile SMS Setting</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/notice">Notice(Individual)</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/parentMessage">Parrent Message</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/anouncement">Anouncement(For Staff)</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/greeting">Greeting(To All)</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/classWise">Class Wise</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse14">Accounting</a>
+					      </h4>
+					    </div>
+					    <div id="collapse14" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/noticeAlert">Day Book</a>
+					        </li>
+					        <li class="list-group-item">
+					        	<a href="<?= base_url();?>home/transaction">Transaction</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
+				<div class="panel-group">
+  					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse14">Website</a>
+					      </h4>
+					    </div>
+					    <div id="collapse14" class="panel-collapse collapse">
+					      <ul class="list-group">
+					      	<li class="list-group-item">
+					        	<a href="<?= base_url();?>home/gallery">Gallery</a>
+					        </li>
+					      </ul>
+					    </div>
+  					</div>
+				</div>
+
 
 			</div>
 

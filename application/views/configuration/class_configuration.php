@@ -10,7 +10,9 @@
 
 	</div>
 	<div class="col-md-6">
+
 		<h1 style="background-color: blue; color: white;">Stream List</h1>
+		
 		<?php foreach($stream as $value): ?>
 			<form class="form-inline" method="post" action="<?= base_url() ?>configure/editstream"">
 			  	<div class="form-group">

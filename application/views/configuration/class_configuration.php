@@ -12,8 +12,9 @@
 	<div class="col-md-6">
 
 		<h1 style="background-color: blue; color: white;">Stream List</h1>
-		
+
 		<?php foreach($stream as $value): ?>
+
 			<form class="form-inline" method="post" action="<?= base_url() ?>configure/editstream"">
 			  	<div class="form-group">
 			    	<input type="text" name="sub_stream" value="<?= $value->sub_stream; ?>" class="form-control" id="ad">
@@ -22,6 +23,7 @@
 			  <button type="submit" name="action" value="edit" class="btn bg-primary">Edit</button>
 			  <button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 			</form>
+			
 		<?php endforeach; ?>
 
 	</div>

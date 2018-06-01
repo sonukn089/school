@@ -29,9 +29,11 @@
 			$action = $this->input->post('action');
 
 			if($action == "edit"):
+				
 				$data['sub_stream'] = $stream;
 				$this->db->where("id", $id);
 				$this->db->update("stream", $data);
+
 			else:
 				$this->db->where("id", $id);
 				$this->db->delete("stream");

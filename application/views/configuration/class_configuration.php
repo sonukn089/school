@@ -29,6 +29,7 @@
 			</form>
 			
 		<?php endforeach; ?>
+		<div class="text-info bg-info">You can edit or delete stream by press concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.</div>
 
 	</div>
 </div>

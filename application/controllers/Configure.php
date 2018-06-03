@@ -37,11 +37,15 @@
 			else:
 				$this->db->where("id", $id);
 				$this->db->delete("stream");
-				
+
 			endif;
 
 			redirect(base_url()."configure/classconfig");
 		}
+
+
+
+		
 	}
 
 

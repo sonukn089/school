@@ -20,8 +20,8 @@
 			    	<input type="text" name="sub_stream" value="<?= $value->sub_stream; ?>" class="form-control" id="ad">
 			    	<input type="hidden" value="<?= $value->id; ?>" name="id">
 			  	</div>
-			  <button type="submit" name="action" value="edit" class="btn bg-primary">Edit</button>
-			  <button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
+			    <button type="submit" name="action" value="edit" class="btn bg-primary">Edit</button>
+			    <button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 			</form>
 			
 		<?php endforeach; ?>

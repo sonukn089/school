@@ -1,14 +1,16 @@
 <div class="row">
 	<div class="col-md-6">
 		<h1 style="background-color: blue; color: white;">Subject Stream</h1>
+
 		<form class="form-inline" method="post" action="<?= base_url() ?>configure/savestream">
 		  	<div class="form-group">
 		    	<input type="text" class="form-control" name="sub_stream">
 		  	</div>
-		  <button type="submit" class="btn bg-primary">Add Stream</button>
+		  	<button type="submit" class="btn bg-primary">Add Stream</button>
 		</form>
 
 	</div>
+	
 	<div class="col-md-6">
 
 		<h1 style="background-color: blue; color: white;">Stream List</h1>

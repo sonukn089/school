@@ -8,7 +8,8 @@
 
 	<div class="tab-content">
 		<div id="stream" class="tab-pane fade in active">
-			
+			<!-- First Menu -->
+
 			<div class="col-md-6">
 				<h1 style="background-color: blue; color: white;">Subject Stream</h1>
 
@@ -43,13 +44,10 @@
 				<div class="text-info bg-info">You can edit or delete stream by press 	
 					concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.
 				</div>
-			</div>	
-
-
-
-
+			</div>		
 		</div>
 
+		<!-- Second Menu -->
 
 		<div id="section" class="tab-pane fade">
 			<h3>Menu 1</h3>
@@ -59,7 +57,5 @@
 			<h3>Menu 2</h3>
 			<p>Some content in menu 2.</p>
 		</div>
-	</div>
-
-	
+	</div>	
 </div>

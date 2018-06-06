@@ -3,6 +3,7 @@
 	class Configure extends CI_Controller {
 
 		function classconfig(){
+			
 			$data['title'] = "Class Configuration";
 			$data['body'] = "configuration/class_configuration";
 

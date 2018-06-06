@@ -27,5 +27,10 @@
 			$data['body'] = "employee_registration";
 			$this->load->view('layout', $data);
 		}
+
+		function newAdmission(){
+
+			
+		}
 	}
 ?>

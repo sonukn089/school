@@ -66,7 +66,7 @@
 				</div>
 
 			<div class="col-md-6">
-				<h1 style="background-color: #cceeff; color: black;">Class</h1>
+				<h1 style="background-color: #cceeff; color: black;">Add Section</h1>
 
 				<form class="form-inline" method="post" action="<?= base_url() ?>configure/	
 					saveclass">
@@ -82,7 +82,7 @@
 
 			<div class="col-md-6">
 
-				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
+				<h1 style="background-color: #cceeff; color: black;">Section List</h1>
 
 				<?php foreach($stream as $value): ?>
 
@@ -115,7 +115,7 @@
 				</div>
 			
 			<div class="col-md-6">
-				<h1 style="background-color: #cceeff; color: black;">Class</h1>
+				<h1 style="background-color: #cceeff; color: black;">Add New Class</h1>
 
 				<form class="form-inline" method="post" action="<?= base_url() ?>configure/	
 					saveclass">
@@ -132,7 +132,7 @@
 			<div class="col-md-6">
 
 
-				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
+				<h1 style="background-color: #cceeff; color: black;">Class List</h1>
 
 				<?php foreach($stream as $value): ?>
 

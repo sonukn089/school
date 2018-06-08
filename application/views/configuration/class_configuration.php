@@ -1,3 +1,4 @@
+
 <div class="row">
 
 	<ul class="nav nav-tabs">
@@ -8,7 +9,7 @@
 
 	<div class="tab-content">
 		<div id="stream" class="tab-pane fade in active">
-			<!-- First Menu -->
+			<!-- Start First Menu -->
 
 			<div class="container-fluid bg-info text-center">
 					<h1>Welcome To Add or Update Stream Area !</h1>
@@ -53,9 +54,10 @@
 				</div>
 			</div>		
 		</div>
+		<!-- End first menu -->
 
-		<!-- Second Menu -->
 
+		<!-- Start Second Menu -->
 		<div id="section" class="tab-pane fade">
 
 			<div class="container-fluid bg-info text-center">
@@ -101,8 +103,10 @@
 				</div>
 			</div>
 		</div>
+		<!-- End Second Menu -->
 
-		<!-- Third Menu -->
+
+		<!-- Start Third Menu -->
 
 		<div id="class" class="tab-pane fade">
 
@@ -151,8 +155,5 @@
 				</div>
 			</div>
 		</div>
-
-		</div>
-
-	</div>	
+	</div>
 </div>

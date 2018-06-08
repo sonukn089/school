@@ -12,11 +12,12 @@
 			<!-- Start First Menu -->
 
 			<div class="container-fluid bg-info text-center">
-					<h1>Welcome To Add or Update Stream Area !</h1>
-					<p>This is very important to create Stream first because subject and classes requires a valid stream.You should not change stream after creating and declare the subjects and classes. If you change it may affect your Exam and time table Section.
+				<h1>Welcome To Add or Update Stream Area !</h1>
+				<p>This is very important to create Stream first because subject and 			classes requires a valid stream.You should not change stream after 			creating and declare the subjects and classes. If you change it may 		affect your Exam and time table Section.
 					If you want to Add a new stream to your school/college, Please type in the stream name into the box given below the stream name and press Add Stream Button.
-					To Edit existing stream edit it's name and press Edit Button next to the row. And to Delete a stream simply press Delete Button.</p>
-				</div>
+					To Edit existing stream edit it's name and press Edit Button next to the row. And to Delete a stream simply press Delete Button.
+				</p>
+			</div>
 
 			<div class="col-md-6">
 				<h1 style="background-color: #cceeff; color: black;">Subject Stream</h1>

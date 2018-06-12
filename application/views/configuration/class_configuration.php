@@ -1,6 +1,5 @@
 
 <div class="row">
-
 	<ul class="nav nav-tabs">
 		<li class="active"><a data-toggle="tab" href="#stream">Add Update Subject Stream</a></li>
 		<li><a data-toggle="tab" href="#section">Add Update Section</a></li>
@@ -50,7 +49,7 @@
 				    	<button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 					</form>
 				<?php endforeach; ?>
-				
+
 				<div class="text-info bg-info">You can edit or delete stream by press 	
 					concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.
 				</div>

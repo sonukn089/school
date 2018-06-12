@@ -29,7 +29,6 @@
 			  		</div>
 			  		<button type="submit" class="btn bg-primary">Add Stream</button>
 				</form><br>
-
 				<div class="text-info bg-info">Type a stream name and press Add Stream.If stream added successfuly then it show in right side panel where you can change the name and Delete it.</div>
 
 			</div>

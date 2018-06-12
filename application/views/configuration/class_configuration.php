@@ -29,7 +29,7 @@
 			  		</div>
 			  		<button type="submit" class="btn bg-primary">Add Stream</button>
 				</form><br>
-				
+
 				<div class="text-info bg-info">Type a stream name and press Add Stream.If stream added successfuly then it show in right side panel where you can change the name and Delete it.</div>
 
 			</div>
@@ -50,6 +50,7 @@
 				    	<button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 					</form>
 				<?php endforeach; ?>
+				
 				<div class="text-info bg-info">You can edit or delete stream by press 	
 					concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.
 				</div>

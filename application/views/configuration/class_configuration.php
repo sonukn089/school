@@ -33,6 +33,7 @@
 			</div>
 
 			<div class="col-md-6">
+				
 				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
 
 				<?php foreach($stream as $value): ?>

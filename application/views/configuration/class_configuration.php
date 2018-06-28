@@ -1,5 +1,5 @@
-<div class="row">
 
+<div class="row">
 	<ul class="nav nav-tabs">
 		<li class="active"><a data-toggle="tab" href="#stream">Add Update Subject Stream</a></li>
 		<li><a data-toggle="tab" href="#section">Add Update Section</a></li>
@@ -8,14 +8,14 @@
 
 	<div class="tab-content">
 		<div id="stream" class="tab-pane fade in active">
-			<!-- First Menu -->
-
+			<!-- Start First Menu -->
 			<div class="container-fluid bg-info text-center">
-					<h1>Welcome To Add or Update Stream Area !</h1>
-					<p>This is very important to create Stream first because subject and classes requires a valid stream.You should not change stream after creating and declare the subjects and classes. If you change it may affect your Exam and time table Section.
+				<h1>Welcome To Add or Update Stream Area !</h1>
+				<p>This is very important to create Stream first because subject and 			classes requires a valid stream.You should not change stream after 			creating and declare the subjects and classes. If you change it may 		affect your Exam and time table Section.
 					If you want to Add a new stream to your school/college, Please type in the stream name into the box given below the stream name and press Add Stream Button.
-					To Edit existing stream edit it's name and press Edit Button next to the row. And to Delete a stream simply press Delete Button.</p>
-				</div>
+					To Edit existing stream edit it's name and press Edit Button next to the row. And to Delete a stream simply press Delete Button.
+				</p>
+			</div>
 
 			<div class="col-md-6">
 				<h1 style="background-color: #cceeff; color: black;">Subject Stream</h1>
@@ -33,7 +33,7 @@
 			</div>
 
 			<div class="col-md-6">
-
+				
 				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
 
 				<?php foreach($stream as $value): ?>
@@ -48,14 +48,16 @@
 				    	<button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 					</form>
 				<?php endforeach; ?>
+
 				<div class="text-info bg-info">You can edit or delete stream by press 	
 					concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.
 				</div>
 			</div>		
 		</div>
+		<!-- End first menu -->
 
-		<!-- Second Menu -->
 
+		<!-- Start Second Menu -->
 		<div id="section" class="tab-pane fade">
 
 			<div class="container-fluid bg-info text-center">
@@ -66,7 +68,7 @@
 				</div>
 
 			<div class="col-md-6">
-				<h1 style="background-color: #cceeff; color: black;">Class</h1>
+				<h1 style="background-color: #cceeff; color: black;">Add Section</h1>
 
 				<form class="form-inline" method="post" action="<?= base_url() ?>configure/	
 					saveclass">
@@ -82,7 +84,7 @@
 
 			<div class="col-md-6">
 
-				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
+				<h1 style="background-color: #cceeff; color: black;">Section List</h1>
 
 				<?php foreach($stream as $value): ?>
 
@@ -101,8 +103,10 @@
 				</div>
 			</div>
 		</div>
+		<!-- End Second Menu -->
 
-		<!-- Third Menu -->
+
+		<!-- Start Third Menu -->
 
 		<div id="class" class="tab-pane fade">
 
@@ -115,7 +119,7 @@
 				</div>
 			
 			<div class="col-md-6">
-				<h1 style="background-color: #cceeff; color: black;">Class</h1>
+				<h1 style="background-color: #cceeff; color: black;">Add New Class</h1>
 
 				<form class="form-inline" method="post" action="<?= base_url() ?>configure/	
 					saveclass">
@@ -132,7 +136,7 @@
 			<div class="col-md-6">
 
 
-				<h1 style="background-color: #cceeff; color: black;">Stream List</h1>
+				<h1 style="background-color: #cceeff; color: black;">Class List</h1>
 
 				<?php foreach($stream as $value): ?>
 
@@ -146,13 +150,11 @@
 				    	<button type="submit" name="action" value="delete" class="btn bg-primary">Delete</button><br><br>
 					</form>
 				<?php endforeach; ?>
+				
 				<div class="text-info bg-info">You can edit or delete stream by press 	
 					concern Button it sure that you have not created subject and classes depending edited or Deleted Stream.
 				</div>
 			</div>
 		</div>
-
-		</div>
-
-	</div>	
+	</div>
 </div>

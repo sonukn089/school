@@ -3,6 +3,7 @@
 	class Configure extends CI_Controller {
 
 		function classconfig(){
+
 			$data['title'] = "Class Configuration";
 			$data['body'] = "configuration/class_configuration";
 
@@ -43,12 +44,24 @@
 			redirect(base_url()."configure/classconfig");
 		}
 
-		
+		function saveSection(){
 
+			$section = $this->input->post('sub_section');
+			$data = Array("section" => $section);
+			$this->db->insert("section", $data);
 
+			redirect(base_url()."configure/classconfig");
 
-		
+		}
+
+		function editsection(){
+
+			$section = $this->input->post('sub_section');
+			$id = $this->input->post('id');
+			
+		}
+	
+
 	}
-
 
 ?>

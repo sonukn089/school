@@ -50,7 +50,6 @@
 					        <li class="list-group-item">
 					        	<a href="<?= base_url();?>home/classPromotion">Class Promotion</a>
 					        </li>
-
 					      </ul>
 					    </div>
   					</div>

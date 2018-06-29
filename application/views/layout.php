@@ -122,35 +122,36 @@
 				</div>
 				<!-- Students Menu End -->
 
+				<!-- Fee Menu Start -->				
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
-					      <h4 class="panel-title">
-					        <a data-toggle="collapse" href="#collapse4">Fee</a>
-					      </h4>
+					      	<h4 class="panel-title">
+					          <a data-toggle="collapse" href="#collapse4">Fee</a>
+					      	</h4>
 					    </div>
 					    <div id="collapse4" class="panel-collapse collapse">
-					      <ul class="list-group">
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/collectFee">Collect Fee</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/updateScheduledFee">Update Scheduled Fee</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/feeReport">Fee Report</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/dueFeeReport">Due Fee Report</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/printDdueFeeReport">Print Due Fee Report</a>
-					        </li>
-					        
-					      </ul>
+					      	<ul class="list-group">
+						       	<li class="list-group-item">
+								<a href="<?= base_url();?>home/collectFee">Collect Fee</a>
+						       	</li>
+						        <li class="list-group-item">
+						        <a href="<?= base_url();?>home/updateScheduledFee">Update 	 Scheduled Fee</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/feeReport">Fee Report</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/dueFeeReport">Due Fee Report</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/printDdueFeeReport">Print Due Fee Report</a>
+						        </li>
+					      	</ul>
 					    </div>
   					</div>
 				</div>
+				<!-- Fee Menu End -->
 
 
 				<div class="panel-group">

@@ -12,6 +12,7 @@
 	<center>
 		<h1 style="background-color: blue; color: white;">Welcome to Admin Panel</h1>
 	</center>
+	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">

@@ -57,6 +57,7 @@
 				</div>
 				<!-- Configration Menu End -->
 
+				<!-- Employee Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -88,7 +89,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Employee Menu End -->
 
+				
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">

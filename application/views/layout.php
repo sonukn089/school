@@ -91,7 +91,7 @@
 				</div>
 				<!-- Employee Menu End -->
 
-				
+				<!-- Students Menu Start -->				
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -120,6 +120,7 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Students Menu End -->
 
 				<div class="panel-group">
   					<div class="panel panel-default">

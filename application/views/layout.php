@@ -12,7 +12,7 @@
 	<center>
 		<h1 style="background-color: blue; color: white;">Welcome to Admin Panel</h1>
 	</center>
-	
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">
@@ -26,7 +26,7 @@
 					    </div>
   					</div>
 				</div>
-
+				<!-- Configration Menu Start -->
                 <div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -55,6 +55,7 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Configration Menu End -->
 
 				<div class="panel-group">
   					<div class="panel panel-default">

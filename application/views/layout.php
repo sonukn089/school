@@ -181,7 +181,7 @@
 				</div>
 				<!-- Attendence Menu End -->
 
-
+				<!-- Time Schedulling Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -207,8 +207,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Time Schedulling Menu End -->
 
-
+				<!-- Exam Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -240,6 +241,7 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Exam Menu End -->
 
 				<div class="panel-group">
   					<div class="panel panel-default">

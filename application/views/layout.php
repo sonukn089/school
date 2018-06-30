@@ -243,6 +243,7 @@
 				</div>
 				<!-- Exam Menu End -->
 
+				<!-- Report Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -265,7 +266,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Report Menu End -->
 
+
+				<!-- HomeWork Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -285,6 +289,7 @@
 					    </div>
   					</div>
 				</div>
+				<!-- HomeWork Menu End -->
 
 				<div class="panel-group">
   					<div class="panel panel-default">

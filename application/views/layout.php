@@ -291,6 +291,8 @@
 				</div>
 				<!-- HomeWork Menu End -->
 
+
+				<!-- Stock Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -316,7 +318,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Stock Menu End -->
 
+
+				<!-- Message Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -336,7 +341,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Message Menu End -->
 
+
+				<!-- Mobile Message Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -368,7 +376,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Mobile Message Menu End -->
 
+
+				<!-- Accounting Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -405,7 +416,7 @@
 					    </div>
   					</div>
 				</div>
-
+				<!-- Accounting Menu End -->
 
 			</div>
 

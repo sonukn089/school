@@ -179,6 +179,8 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Attendence Menu End -->
+
 
 				<div class="panel-group">
   					<div class="panel panel-default">

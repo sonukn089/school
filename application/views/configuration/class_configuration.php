@@ -132,7 +132,6 @@
 
 			<div class="col-md-6">
 
-
 				<h1 style="background-color: #cceeff; color: black;">Class List</h1>
 
 				<?php foreach($stream as $value): ?>
@@ -153,5 +152,6 @@
 				</div>
 			</div>
 		</div>
+		<!-- End Third Menu -->
 	</div>
 </div>

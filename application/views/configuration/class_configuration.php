@@ -108,7 +108,6 @@
 		<!-- Start Third Menu -->
 		<div id="class" class="tab-pane fade">
 
-
 				<div class="container-fluid bg-info text-center">
 					<h1>Welcome To Add or Update Stream Area !</h1>
 					<p>This is very important to create Stream first because subject and classes requires a valid stream.You should not change stream after creating and declare the subjects and classes. If you change it may affect your Exam and time table Section.

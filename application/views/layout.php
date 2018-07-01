@@ -12,6 +12,7 @@
 	<center>
 		<h1 style="background-color: blue; color: white;">Welcome to Admin Panel</h1>
 	</center>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">
@@ -25,7 +26,7 @@
 					    </div>
   					</div>
 				</div>
-
+				<!-- Configration Menu Start -->
                 <div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -54,7 +55,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Configration Menu End -->
 
+				<!-- Employee Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -86,7 +89,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Employee Menu End -->
 
+				<!-- Students Menu Start -->				
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -115,38 +120,40 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Students Menu End -->
 
+				<!-- Fee Menu Start -->				
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
-					      <h4 class="panel-title">
-					        <a data-toggle="collapse" href="#collapse4">Fee</a>
-					      </h4>
+					      	<h4 class="panel-title">
+					          <a data-toggle="collapse" href="#collapse4">Fee</a>
+					      	</h4>
 					    </div>
 					    <div id="collapse4" class="panel-collapse collapse">
-					      <ul class="list-group">
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/collectFee">Collect Fee</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/updateScheduledFee">Update Scheduled Fee</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/feeReport">Fee Report</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/dueFeeReport">Due Fee Report</a>
-					        </li>
-					        <li class="list-group-item">
-					        	<a href="<?= base_url();?>home/printDdueFeeReport">Print Due Fee Report</a>
-					        </li>
-					        
-					      </ul>
+					      	<ul class="list-group">
+						       	<li class="list-group-item">
+								<a href="<?= base_url();?>home/collectFee">Collect Fee</a>
+						       	</li>
+						        <li class="list-group-item">
+						        <a href="<?= base_url();?>home/updateScheduledFee">Update 	 Scheduled Fee</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/feeReport">Fee Report</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/dueFeeReport">Due Fee Report</a>
+						        </li>
+						        <li class="list-group-item">
+						        	<a href="<?= base_url();?>home/printDdueFeeReport">Print Due Fee Report</a>
+						        </li>
+					      	</ul>
 					    </div>
   					</div>
 				</div>
+				<!-- Fee Menu End -->
 
-
+				<!-- Attendence Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -172,7 +179,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Attendence Menu End -->
 
+				<!-- Time Schedulling Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -198,8 +207,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Time Schedulling Menu End -->
 
-
+				<!-- Exam Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -231,7 +241,9 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Exam Menu End -->
 
+				<!-- Report Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -254,7 +266,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Report Menu End -->
 
+
+				<!-- HomeWork Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -274,7 +289,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- HomeWork Menu End -->
 
+
+				<!-- Stock Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -300,7 +318,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Stock Menu End -->
 
+
+				<!-- Message Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -320,7 +341,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Message Menu End -->
 
+
+				<!-- Mobile Message Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -352,7 +376,10 @@
 					    </div>
   					</div>
 				</div>
+				<!-- Mobile Message Menu End -->
 
+
+				<!-- Accounting Menu Start -->
 				<div class="panel-group">
   					<div class="panel panel-default">
 					    <div class="panel-heading">
@@ -389,7 +416,7 @@
 					    </div>
   					</div>
 				</div>
-
+				<!-- Accounting Menu End -->
 
 			</div>
 
